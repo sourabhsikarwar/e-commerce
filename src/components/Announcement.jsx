@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  height : 30px;
+  min-height : 30px;
   color : white;
   background-color : teal;
   display : flex;
@@ -9,6 +9,8 @@ const Container = styled.div`
   justify-content : center;
   font-size: 14px;
   font-weight : 500;
+  text-align : center;
+  padding : 10px;
 `;
 
 const Announcement = () => {
